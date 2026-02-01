@@ -1,0 +1,21 @@
+{
+  "server_name": "Apk-asa Video Star Server",
+  "developer": "Apk-asa",
+  "version": "1.0",
+  "items": [
+    {
+      "id": "1",
+      "name": "یەکەم پریزێتی من",
+      "type": "preset",
+      "url": "https://apk-asa.github.io/vs-server/preset1.vs",
+      "thumbnail": "https://apk-asa.github.io/vs-server/image1.jpg"
+    },
+    {
+      "id": "2",
+      "name": "کۆدی جوڵەی تایبەت",
+      "type": "motion",
+      "url": "https://apk-asa.github.io/vs-server/motion2.vs",
+      "thumbnail": "https://apk-asa.github.io/vs-server/image2.jpg"
+    }
+  ]
+}
