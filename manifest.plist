@@ -1,31 +1,18 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
-<plist version="1.0">
-<dict>
-    <key>items</key>
-    <array>
-        <dict>
-            <key>assets</key>
-            <array>
-                <dict>
-                    <key>kind</key>
-                    <string>software-package</string>
-                    <key>url</key>
-                    <string>https://www.dropbox.com/scl/fi/y87g56bof9t1mizsh6v5h/Video-Star-Pro_13.2.3_1738622830.ipa?rlkey=vxralplci9p3e79ptso0cda1y&st=i002i302&raw=1</string>
-                </dict>
-            </array>
-            <key>metadata</key>
-            <dict>
-                <key>bundle-identifier</key>
-                <string>com.videostar.ios</string>
-                <key>bundle-version</key>
-                <string>13.2.3</string>
-                <key>kind</key>
-                <string>software</string>
-                <key>title</key>
-                <string>Video Star Pro</string>
-            </dict>
-        </dict>
-    </array>
-</dict>
-</plist>
+<!DOCTYPE html>
+<html lang="ku">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Apk Asa</title>
+    <style>
+        body { background-color: #0d1117; color: white; text-align: center; font-family: sans-serif; padding-top: 100px; }
+        .btn { background-color: #238636; color: white; padding: 20px 40px; text-decoration: none; border-radius: 12px; font-size: 22px; font-weight: bold; display: inline-block; }
+    </style>
+</head>
+<body>
+    <h1>سێرڤەری ئاپک ئاسا</h1>
+    <p>بۆ داگرتنی ڤیدیۆ ستار کلیک لە خوارەوە بکە</p>
+    <br>
+    <a href="itms-services://?action=download-manifest&url=https://raw.githubusercontent.com/appk-asuuli/Apk_asa/main/manifest.plist" class="btn">Install Video Star</a>
+</body>
+</html>
