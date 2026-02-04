@@ -5,71 +5,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Apk Asa Store</title>
     <style>
-        :root {
-            --primary: #ff2d55;
-            --bg: #050505;
-            --card: #121212;
-            --text: #ffffff;
-        }
-        body { 
-            font-family: -apple-system, system-ui, sans-serif; 
-            background-color: var(--bg); 
-            color: var(--text); 
-            margin: 0; 
-            display: flex; 
-            flex-direction: column; 
-            align-items: center; 
-            justify-content: center; 
-            min-height: 100vh;
-        }
-        .card {
-            background: var(--card);
-            padding: 30px;
-            border-radius: 25px;
-            box-shadow: 0 10px 40px rgba(0,0,0,0.7);
-            border: 1px solid #222;
-            text-align: center;
-            max-width: 300px;
-            width: 85%;
-        }
-        .logo {
-            width: 90px;
-            height: 90px;
-            border-radius: 22px;
-            margin-bottom: 15px;
-            box-shadow: 0 0 20px rgba(255, 45, 85, 0.4);
-        }
-        h1 { font-size: 24px; margin: 10px 0; font-weight: 800; }
-        p { color: #888; font-size: 14px; margin-bottom: 30px; line-height: 1.5; }
-        .btn {
-            display: block;
-            background: var(--primary);
-            color: white;
-            text-decoration: none;
-            padding: 16px;
-            border-radius: 15px;
-            font-weight: bold;
-            font-size: 16px;
-            transition: 0.3s;
-        }
-        .btn:active { transform: scale(0.96); opacity: 0.9; }
-        .footer { margin-top: 30px; font-size: 11px; color: #444; letter-spacing: 1px; }
+        body { background: #050505; color: white; font-family: sans-serif; display: flex; align-items: center; justify-content: center; min-height: 100vh; margin: 0; }
+        .card { background: #121212; padding: 30px; border-radius: 25px; text-align: center; border: 1px solid #222; width: 280px; }
+        .logo { width: 80px; border-radius: 20px; margin-bottom: 10px; }
+        .btn { display: block; background: #ff2d55; color: white; text-decoration: none; padding: 15px; border-radius: 12px; font-weight: bold; margin-top: 20px; }
     </style>
 </head>
 <body>
-
     <div class="card">
         <img src="https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/91/31/33/91313330-22c1-2309-847d-815d78709503/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/512x512bb.jpg" class="logo">
-        
-        <h1>Video Star Pro</h1>
-        <p>بۆ داگرتنی ڤیدیۆ ستار کلیک لە دوگمەی خوارەوە بکە و کەمێک بوەستە</p>
-
-        <a href="itms-services://?action=download-manifest&url=https://raw.githubusercontent.com/appk-asuuli/Apk_asa/master/manifest.plist" class="btn">
-            Install / دابەزاندن
-        </a>
+        <h2>Video Star Pro</h2>
+        <a href="itms-services://?action=download-manifest&url=https://raw.githubusercontent.com/appk-asuuli/Apk_asa/master/manifest.plist" class="btn">داگرتن / Install</a>
     </div>
-
-    <div class="footer">DEVELOPED BY APK ASA</div>
-
 </body>
 </html>
